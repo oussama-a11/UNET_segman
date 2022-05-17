@@ -121,10 +121,10 @@ def main():
     # make predictions on test set
     y_pred=svc_rbf_c100.predict(X_test)
 
-    print("test pridect normaliz svc_rbf_c100")
-    print(svc_rbf_c100.predict([[0.404695112, 0.556220642, 0.435032654, 0.95375712, 0.616367614, 0.140135251, 0, 0.801199482]]))
-    print(svc_rbf_c100.predict([[0.572075354,	0.425227225,	0.196546918,	0.873134995,	0.922964603,	0.138429271,	0.159571425,	0.449790328]]))
-    print(svc_rbf_c100.predict([[0.658484677,	0.443266785,	0.494248695,	0.944447685,	0.579502115,	0.503946736,	0.162076535,	0.779742237]]))
+    #print("test pridect normaliz svc_rbf_c100")
+    #print(svc_rbf_c100.predict([[0.404695112, 0.556220642, 0.435032654, 0.95375712, 0.616367614, 0.140135251, 0, 0.801199482]]))
+    #print(svc_rbf_c100.predict([[0.572075354,	0.425227225,	0.196546918,	0.873134995,	0.922964603,	0.138429271,	0.159571425,	0.449790328]]))
+    #print(svc_rbf_c100.predict([[0.658484677,	0.443266785,	0.494248695,	0.944447685,	0.579502115,	0.503946736,	0.162076535,	0.779742237]]))
 
     # compute and print accuracy score
     print('Model accuracy score with rbf kernel and C=100.0 : {0:0.4f}'. format(accuracy_score(y_test, y_pred)))
