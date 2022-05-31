@@ -29,7 +29,7 @@ def main():
     if not os.path.exists(args.out):
         os.mkdir(args.out)
 
-    df = pd.read_csv(os.path.join(args.path,'data_normaliz.csv')) #data_concat_non_normaliz
+    df = pd.read_csv(os.path.join(args.path,'../input/data-normaliz/data_concat.csv')) #data_concat_non_normaliz
 
     # Declare feature vector and target variable
 
